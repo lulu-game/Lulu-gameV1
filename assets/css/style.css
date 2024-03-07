@@ -117,9 +117,6 @@ h6 {
 #header.header-inner-pages {
   background: rgba(40, 58, 90, 0.9);
 }
-#header .logo a .logo-image {
-  height: 45px;
-}
 
 #header .logo {
   font-size: 30px;
