@@ -1,0 +1,71 @@
+/* SignUpForm.css */
+
+/* Overall container styling */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Loading message styling */
+.loading {
+  text-align: center;
+  margin-top: 20px;
+  color: #007bff;
+}
+
+/* Success message styling */
+.success {
+  text-align: center;
+  margin-top: 20px;
+  color: green;
+}
+
+/* Form link/button styling */
+.form-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-link button {
+  background-color: transparent;
+  color: #007bff;
+  border: none;
+  cursor: pointer;
+}
+
+.form-link button:hover {
+  text-decoration: underline;
+}
