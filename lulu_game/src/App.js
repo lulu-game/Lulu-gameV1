@@ -3,6 +3,7 @@ import "./styles.css";
 import SignInForm from "./SignIn";
 import SignUpForm from "./SignUp";
 
+
 export default function App() {
   const [type, setType] = useState("signIn");
   const handleOnClick = text => {
@@ -51,3 +52,4 @@ export default function App() {
     </div>
   );
 }
+
