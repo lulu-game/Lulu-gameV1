@@ -1,6 +1,11 @@
 # Lulu-gameV1
 AI powered African language learning platfrom.
 
+## landing page
+
+[Click here](https://lulugame.vercel.app/)
+
+
 ### Backend:
 cd server
 initialise Node.js project 
