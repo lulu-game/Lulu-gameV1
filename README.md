@@ -19,4 +19,9 @@ express
 cors
 mysql
 
+Admin Dashboard:
+![Admin](/lulu.jpg)
+
+![Api calls](/lulu1.jpg)
+
 
