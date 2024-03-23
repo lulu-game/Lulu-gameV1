@@ -3,6 +3,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Sidebar from '../components/Sidebar';
 import '../styles/Dashboard.css';
+import SubscribersChart from '../components/SubscribersChart';
+
 
 const Dashboard = () => {
   return (
@@ -10,31 +12,45 @@ const Dashboard = () => {
       <Sidebar />
       <div className="content">
         <header>
-          <div className="admin-icon">Admin Icon</div>
-          <div className="search-bar">Search Bar</div>
-        </header>
-        <main>
-          <h2>Welcome to the Dashboard</h2>
-          <p>This is the main content area of the dashboard.</p>
-          <nav>
-            <ul>
-              <li>
-                <Link to="/admin/tutors">Tutors</Link>
-              </li>
-              <li>
-                <Link to="/admin/language-lounge">Language Lounge</Link>
-              </li>
-              <li>
-                <Link to="/admin/leaderboards">Leaderboards</Link>
-              </li>
-              <li>
-                <Link to="/admin/api">API</Link>
-              </li>
-              <li>
-                <Link to="/admin/settings">Settings</Link>
-              </li>
+          <nav className="top-nav">
+            <div className="logo"></div>
+            <ul className="nav-links">
+              <li><Link to="/admin/dashboard" className="active">Dashboard</Link></li>
+              <li><Link to="/admin/tutors">Tutors</Link></li>
+              <li><Link to="/admin/language-lounge">Language Lounge</Link></li>
+              <li><Link to="/admin/leaderboards">LeaderBoards</Link></li>
+              <li><input type="text" placeholder="Search" className="search-bar" /></li>
+              <li><i className="fa fa-bell"></i></li>
+              <li><i className="fa fa-user"></i></li>
             </ul>
           </nav>
+        </header>
+        <main>
+          <h2>Dashboard</h2>
+          <div className="dashboard-stats">
+            <div className="stat-card">
+              <h3>Total Learners</h3>
+              <p className="stat-value">10,000</p>
+              <p className="stat-change">+40%</p> {/* Move to the right */}
+            </div>
+            <div className="stat-card">
+              <h3>Total Languages</h3>
+              <p className="stat-value">7,00</p>
+            </div>
+            <div className="stat-card">
+              <h3>Premium Subscribers</h3>
+              <p className="stat-value">4,250</p>
+              <p className="stat-change">+20%</p> {/* Move to the right */}
+            </div>
+          </div>
+          <div className="chart-container">
+            <h3>New subscribers count <strong>(,00)</strong></h3>
+            <SubscribersChart />
+          </div>
+          <div className="progress-overview">
+            <h3>Learning Progress Overview</h3>
+            {/* Add your progress overview component here */}
+          </div>
         </main>
       </div>
     </div>

@@ -6,11 +6,7 @@ import '../styles/Sidebar.css';
 const Sidebar = () => {
   const navLinks = [
     { name: 'Dashboard', path: '/admin/dashboard' },
-    { name: 'Tutors', path: '/admin/tutors' },
-    { name: 'Language Lounge', path: '/admin/language-lounge' },
-    { name: 'Leaderboards', path: '/admin/leaderboards' },
-    { name: 'API', path: '/admin/api' },
-    { name: 'Settings', path: '/admin/settings' },
+    { name: 'Settings', path: '/admin/' },
   ];
 
   return (

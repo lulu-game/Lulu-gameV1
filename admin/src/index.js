@@ -6,6 +6,7 @@ import './styles/Sidebar.css';
 //import './styles/SidebarLink.css';
 import './styles/Login.css';
 import App from './App';
+import '@fortawesome/fontawesome-free/css/all.css';
 
 ReactDOM.render(
   <React.StrictMode>
