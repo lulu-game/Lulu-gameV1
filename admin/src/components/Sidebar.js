@@ -5,7 +5,7 @@ import '../styles/Sidebar.css';
 
 const Sidebar = () => {
   const navLinks = [
-    { name: 'Dashboard', path: '/admin/dashboard' },
+    { name: 'Admin', path: '/admin/dashboard' },
     { name: 'Revenue', path: '/admin/dashboard' },
     { name: 'API', path: '/admin/dashboard' },
     { name: 'Settings', path: '/admin/dashboard' },

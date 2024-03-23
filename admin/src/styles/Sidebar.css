@@ -1,20 +1,28 @@
-/* src/styles/Sidebar.css */
 .sidebar {
     width: 200px;
     background-color: #f0f0f0;
     padding: 20px;
-  }
-  
-  ul {
+    position: fixed;
+    top: 0; /* Align the sidebar to the top of the viewport */
+    left: 0; /* Align the sidebar to the left of the viewport */
+    bottom: 0; /* Align the bottom of the sidebar to the bottom of the viewport */
+    overflow-y: auto; /* Add vertical scrolling if needed */
+}
+
+ul {
     list-style-type: none;
     padding: 0;
-  }
-  
-  li {
-    margin-bottom: 10px;
-  }
-  
-  a {
+}
+
+li {
+    margin-bottom: 30px; 
+}
+
+a {
     text-decoration: none;
     color: #333;
-  }
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition for smooth hover effect */
+    display: block;
+}

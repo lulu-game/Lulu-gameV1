@@ -11,53 +11,56 @@
   .dashboard-container {
     display: flex;
     height: 100vh;
-  }
-  
-  .content {
+    margin-left: 220px; /* Adjusted margin to accommodate the sidebar */
+}
+
+.content {
     flex-grow: 1;
     padding: 20px;
     background-color: #ffffff;
-  }
-  
-  .top-nav {
+    margin-left: 20px; /* Adjusted margin to provide space between sidebar and content */
+}
+
+.top-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color:#6c63ff;
+    background-color: #6c63ff;
     color: #fff;
     padding: 10px 20px;
+    margin-bottom: 20px;
     border-radius: 5px;
     animation: fadeIn 0.5s ease; /* Fade in animation */
-  }
-  
-  .nav-links {
+}
+
+.nav-links {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
-  }
-  
-  .nav-links li {
-    margin-right: 30px; /* Increase margin for spacing */
-  }
-  
-  .nav-links li:last-child {
+}
+
+.nav-links li {
+    margin-right: 20px; /* Adjusted margin between nav links */
+}
+
+.nav-links li:last-child {
     margin-right: 0;
-  }
-  
-  .nav-links li a {
+}
+
+.nav-links li a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
     transition: background-color 0.3s ease;
-  }
-  
-  .nav-links li a:hover {
+}
+
+.nav-links li a:hover {
     background-color: #0056b3;
     border-radius: 5px;
     padding: 8px 16px;
-  }
+}
   
   .search-bar {
     color: #ffffff;
