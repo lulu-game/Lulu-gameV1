@@ -10,7 +10,7 @@ const Home = (props) => {
       <div className={'titleContainer'}>
         <div>Welcome!</div>
       </div>
-      <div>This is the home page.</div>
+      <div>Dashboard</div>
       {/* The children of the SignedOut component are rendered only when the user is signed out from the app. In this case, the app will render a SignInButton */}
       <SignedOut>
         <SignInButton>
