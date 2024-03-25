@@ -10,7 +10,8 @@ const Sidebar = () => {
     { name: 'API', path: '/admin/dashboard' },
     { name: 'Settings', path: '/admin/dashboard' },
     { name: 'View Site', path: '/admin/dashboard' },
-    { name: 'Log out', path: '/admin/dashboard' },
+    { name: 'Profile', path: '/admin/profile' },
+    { name: 'Log out', path: '/admin/' },
   ];
 
   return (
