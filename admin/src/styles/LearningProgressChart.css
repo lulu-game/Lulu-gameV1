@@ -1,0 +1,52 @@
+/* src/styles/LearningProgressChart.css */
+.learning-progress-chart {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.learning-progress-chart .stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.learning-progress-chart .stat {
+  display: flex;
+  align-items: center;
+}
+
+.learning-progress-chart .stat span:first-child {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.learning-progress-chart .stat span:last-child {
+  color: #888;
+  font-size: 14px;
+}
+
+.learning-progress-chart .toggle-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.learning-progress-chart .toggle-buttons button {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #333;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.learning-progress-chart .toggle-buttons button:hover,
+.learning-progress-chart .toggle-buttons button.active {
+  background-color: #333;
+  color: #fff;
+}

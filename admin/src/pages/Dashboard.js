@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Sidebar from '../components/Sidebar';
 import '../styles/Dashboard.css';
 import SubscribersChart from '../components/SubscribersChart';
+import LearningProgressChart from '../components/LearningProgressChart'; // Import the LearningProgressChart component
 
 
 const Dashboard = () => {
@@ -48,8 +49,8 @@ const Dashboard = () => {
             <SubscribersChart />
           </div>
           <div className="progress-overview">
-            <h3>Learning Progress Overview</h3>
-            {/* Add your progress overview component here */}
+          <h3>Learning Progress Overview</h3>
+          <LearningProgressChart /> 
           </div>
         </main>
       </div>
