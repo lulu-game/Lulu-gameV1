@@ -18,7 +18,7 @@ const Dashboard = () => {
               <li><Link to="/admin/dashboard" className="active">Dashboard</Link></li>
               <li><Link to="/admin/tutors">Tutors</Link></li>
               <li><Link to="/admin/language-lounge">Language Lounge</Link></li>
-              <li><Link to="/admin/leaderboards">LeaderBoards</Link></li>
+              <li><Link to="/admin/API">API</Link></li>
               <li><input type="text" placeholder="Search" className="search-bar" /></li>
               <li><i className="fa fa-bell"></i></li>
               <li><i className="fa fa-user"></i></li>
