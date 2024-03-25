@@ -1,11 +1,10 @@
-// src/pages/Dashboard.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Sidebar from '../components/Sidebar';
 import '../styles/Dashboard.css';
 import SubscribersChart from '../components/SubscribersChart';
 import LearningProgressChart from '../components/LearningProgressChart'; // Import the LearningProgressChart component
-
+import LanguageLounge from '../pages/LanguageLounge';
 
 const Dashboard = () => {
   return (

@@ -1,0 +1,88 @@
+.language-lounge {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+  }
+  
+  .most-learned-languages {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .language-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .language-card {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+  }
+  
+  .language-details {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .language-details table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .language-details th,
+  .language-details td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .learner-demographics {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bar-chart {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .bar {
+    width: 20px;
+    background-color: #007bff;
+  }
+  
+  .bar-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .gender-bar,
+  .country-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .gender-bar span,
+  .country-bar span {
+    margin-right: 10px;
+  }
+  
+  .gender-bar .bar,
+  .country-bar .bar {
+    height: 20px;
+    background-color: #007bff;
+  }
