@@ -20,7 +20,7 @@ def game_view(request):
         question = Question.objects.get(id=question_id)
 
         if user_answer.lower() == question.correct_answer.lower():
-            # Correct answer
+            # Correct answer mutation
             score = request.session.get('score', 0) + 1
             request.session['score'] = score
             message = 'Correct! Your score is {}'.format(score)
@@ -31,7 +31,7 @@ def game_view(request):
 
         request.session['message'] = message
 
-    # Get a random question
+    # Get a random question mutation
     question = random.choice(Question.objects.all())
 
     context = {
