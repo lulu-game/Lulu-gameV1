@@ -26,13 +26,13 @@ def game_view(request):
             request.session['score'] = score
             message = 'Correct! Your score is {}'.format(score)
         else:
-            # Incorrect answer
+            # Incorrect answer mutation
             score = request.session.get('score', 0)
             message = "Sorry, that was not correct. The correct answer is '{}'. Your score is {}".format(question.correct_answer, score)
 
         request.session['message'] = message
 
-    # Get a random question
+    # Get a random question to ask user
     question = random.choice(Question.objects.all())
 
     context = {
