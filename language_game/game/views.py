@@ -2,9 +2,10 @@ from django.shortcuts import render, redirect
 from .models import Question
 import random
 
+
 def game_view(request):
     if request.method == 'POST':
-        # Handle user's answer
+        # Handle user's answer mutation
         user_answer = request.POST.get('answer')
         question_id = request.POST.get('question_id')
         stop_game = request.POST.get('stop_game')
@@ -20,7 +21,7 @@ def game_view(request):
         question = Question.objects.get(id=question_id)
 
         if user_answer.lower() == question.correct_answer.lower():
-            # Correct answer mutation
+            # Correct answer
             score = request.session.get('score', 0) + 1
             request.session['score'] = score
             message = 'Correct! Your score is {}'.format(score)
@@ -31,7 +32,7 @@ def game_view(request):
 
         request.session['message'] = message
 
-    # Get a random question mutation
+    # Get a random question
     question = random.choice(Question.objects.all())
 
     context = {
