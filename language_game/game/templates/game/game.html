@@ -1,0 +1,20 @@
+<!-- game/templates/game/game.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Language Learning Game</title>
+</head>
+<body>
+    <h1>Language Learning Game</h1>
+    <p>Score: {{ request.session.score|default:0 }}</p>
+    <p>{{ message|safe }}</p>
+    <form method="post">
+        {% csrf_token %}
+        <p>{{ question.question }}</p>
+        <input type="hidden" name="question_id" value="{{ question.id }}">
+        <input type="text" name="answer" placeholder="Enter your answer">
+        <button type="submit">Submit</button>
+        <button type="submit" name="stop_game" value="true">Stop Game</button>
+    </form>
+</body>
+</html>

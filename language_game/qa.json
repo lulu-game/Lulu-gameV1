@@ -1,0 +1,355 @@
+{
+    "interactive_questions": [
+      {
+        "question": "How do you say 'hello' in Swahili?",
+        "correct_answer": "Jambo",
+        "language": "Swahili"
+      },
+      {
+        "question": "What is the word for 'water' in Hausa?",
+        "correct_answer": "Ruwa",
+        "language": "Hausa"
+      },
+      {
+        "question": "Translate 'good morning' to Yoruba.",
+        "correct_answer": "Ẹ ku ọjọ́ ajá",
+        "language": "Yoruba"
+      },
+      {
+        "question": "Form a sentence using the verb 'to eat' in isiZulu.",
+        "correct_answer": "Ngizohamba ekhaya",
+        "language": "isiZulu"
+      },
+      {
+        "question": "What is the plural form of 'child' in Igbo?",
+        "correct_answer": "Ndi mmadụ",
+        "language": "Igbo"
+      },
+      {
+        "question": "Conjugate the verb 'to walk' in Shona for the present tense.",
+        "correct_answer": "Ndiri kufamba",
+        "language": "Shona"
+      },
+      {
+        "question": "What is a common traditional dish in Ghana?",
+        "correct_answer": "Banku and tilapia",
+        "language": "Ghanaian"
+      },
+      {
+        "question": "Name a popular music genre in South Africa.",
+        "correct_answer": "Kwaito",
+        "language": "South African"
+      },
+      {
+        "question": "How would you greet someone in Wolof?",
+        "correct_answer": "Nanga def?",
+        "language": "Wolof"
+      },
+      {
+        "question": "Ask for directions to the market in Tigrinya.",
+        "correct_answer": "Nay taku tifeyin market?",
+        "language": "Tigrinya"
+      },
+      {
+        "question": "What is the traditional greeting in Amharic?",
+        "correct_answer": "Sälam",
+        "language": "Amharic"
+      },
+      {
+        "question": "Translate 'thank you' to Somali.",
+        "correct_answer": "Mahadsanid",
+        "language": "Somali"
+      },
+      {
+        "question": "How do you say 'goodbye' in Lingala?",
+        "correct_answer": "Tokosalisa",
+        "language": "Lingala"
+      },
+      {
+        "question": "What is a common greeting in Arabic?",
+        "correct_answer": "Marḥaban",
+        "language": "Arabic"
+      },
+      {
+        "question": "Say 'hello' in Malagasy.",
+        "correct_answer": "Manahoana",
+        "language": "Malagasy"
+      },
+      {
+        "question": "What is the traditional greeting in Tswana?",
+        "correct_answer": "Dumela",
+        "language": "Tswana"
+      },
+      {
+        "question": "Translate 'welcome' to Kinyarwanda.",
+        "correct_answer": "Muraho",
+        "language": "Kinyarwanda"
+      },
+      {
+        "question": "How do you say 'good day' in Sesotho?",
+        "correct_answer": "Dumela",
+        "language": "Sesotho"
+      },
+      {
+        "question": "What is a common greeting in Swazi?",
+        "correct_answer": "Sawubona",
+        "language": "Swazi"
+      },
+      {
+        "question": "Say 'hello' in Afrikaans.",
+        "correct_answer": "Hallo",
+        "language": "Afrikaans"
+      },
+      {
+        "question": "Translate 'good morning' to Xhosa.",
+        "correct_answer": "Molo",
+        "language": "Xhosa"
+      },
+      {
+        "question": "How do you greet someone in Chichewa?",
+        "correct_answer": "Moni",
+        "language": "Chichewa"
+      },
+      {
+        "question": "What is the traditional greeting in Sotho?",
+        "correct_answer": "Dumela",
+        "language": "Sotho"
+      },
+      {
+        "question": "Translate 'good evening' to Ndebele.",
+        "correct_answer": "Livuke kakhulu",
+        "language": "Ndebele"
+      },
+      {
+        "question": "How would you say 'hi' in Tigrayit?",
+        "correct_answer": "ሰላም",
+        "language": "Tigrayit"
+      },
+      {
+        "question": "What is a common greeting in Oromo?",
+        "correct_answer": "Akkam jirtu",
+        "language": "Oromo"
+      },
+      {
+        "question": "Say 'hello' in Sidamo.",
+        "correct_answer": "Selamta",
+        "language": "Sidamo"
+      },
+      {
+        "question": "How do you greet someone in Somali?",
+        "correct_answer": "Soo dhowow",
+        "language": "Somali"
+      },
+      {
+        "question": "What is a common greeting in Yoruba?",
+        "correct_answer": "Ẹ ku ọjọ́ ajá",
+        "language": "Yoruba"
+      },
+      {
+        "question": "Translate 'goodbye' to Swahili.",
+        "correct_answer": "Kwaheri",
+        "language": "Swahili"
+      },
+      {
+        "question": "How would you say 'hi' in Fulfulde?",
+        "correct_answer": "Jamarew",
+        "language": "Fulfulde"
+      },
+      {
+        "question": "What is the traditional greeting in Fula?",
+        "correct_answer": "Jamarew",
+        "language": "Fula"
+      },
+      {
+        "question": "Say 'hello' in Amharic.",
+        "correct_answer": "Sälam",
+        "language": "Amharic"
+      },
+      {
+        "question": "How do you greet someone in Igbo?",
+        "correct_answer": "Ndewo",
+        "language": "Igbo"
+      },
+      {
+        "question": "What is the traditional greeting in Yoruba?",
+        "correct_answer": "Ẹ ku ọjọ́ ajá",
+        "language": "Yoruba"
+      },
+      {
+        "question": "Translate 'goodbye' to Wolof.",
+        "correct_answer": "Jaaraama",
+        "language": "Wolof"
+      },
+      {
+        "question": "How would you say 'hi' in Afrikaans?",
+        "correct_answer": "Hallo",
+        "language": "Afrikaans"
+      },
+      {
+        "question": "What is the traditional greeting in Tigrinya?",
+        "correct_answer": "Selam",
+        "language": "Tigrinya"
+      },
+      {
+        "question": "Say 'hello' in Swazi.",
+        "correct_answer": "Sawubona",
+        "language": "Swazi"
+      },
+      {
+        "question": "How do you greet someone in Malagasy?",
+        "correct_answer": "Manahoana",
+        "language": "Malagasy"
+      },
+      {
+        "question": "What is a common greeting in Sesotho?",
+        "correct_answer": "Dumela",
+        "language": "Sesotho"
+      },
+      {
+        "question": "Translate 'goodbye' to Xhosa.",
+        "correct_answer": "Uhambe kakuhle",
+        "language": "Xhosa"
+      },
+      {
+        "question": "How would you say 'hi' in Ndebele?",
+        "correct_answer": "Salibonani",
+        "language": "Ndebele"
+      },
+      {
+        "question": "What is the traditional greeting in Tigrayit?",
+        "correct_answer": "ሰላም",
+        "language": "Tigrayit"
+      },
+      {
+        "question": "Translate 'goodbye' to Oromo.",
+        "correct_answer": "Iccuf",
+        "language": "Oromo"
+      },
+      {
+        "question": "Say 'hello' in Sidamo.",
+        "correct_answer": "Selamta",
+        "language": "Sidamo"
+      },
+      {
+        "question": "How do you greet someone in Somali?",
+        "correct_answer": "Soo dhowow",
+        "language": "Somali"
+      },
+      {
+        "question": "What is a common greeting in Yoruba?",
+        "correct_answer": "Ẹ ku ọjọ́ ajá",
+        "language": "Yoruba"
+      },
+      {
+        "question": "Translate 'goodbye' to Swahili.",
+        "correct_answer": "Kwaheri",
+        "language": "Swahili"
+      },
+      {
+        "question": "How would you say 'hi' in Fulfulde?",
+        "correct_answer": "Jamarew",
+        "language": "Fulfulde"
+      },
+      {
+        "question": "What is the traditional greeting in Fula?",
+        "correct_answer": "Jamarew",
+        "language": "Fula"
+      },
+      {
+        "question": "Say 'hello' in Amharic.",
+        "correct_answer": "Sälam",
+        "language": "Amharic"
+      },
+      {
+        "question": "How do you greet someone in Igbo?",
+        "correct_answer": "Ndewo",
+        "language": "Igbo"
+      },
+      {
+        "question": "What is the traditional greeting in Yoruba?",
+        "correct_answer": "Ẹ ku ọjọ́ ajá",
+        "language": "Yoruba"
+      },
+      {
+        "question": "Translate 'goodbye' to Wolof.",
+        "correct_answer": "Jaaraama",
+        "language": "Wolof"
+      },
+      {
+        "question": "How would you say 'hi' in Afrikaans?",
+        "correct_answer": "Hallo",
+        "language": "Afrikaans"
+      },
+      {
+        "question": "What is the traditional greeting in Tigrinya?",
+        "correct_answer": "Selam",
+        "language": "Tigrinya"
+      },
+      {
+        "question": "Say 'hello' in Swazi.",
+        "correct_answer": "Sawubona",
+        "language": "Swazi"
+      },
+      {
+        "question": "How do you greet someone in Malagasy?",
+        "correct_answer": "Manahoana",
+        "language": "Malagasy"
+      },
+      {
+        "question": "What is a common greeting in Sesotho?",
+        "correct_answer": "Dumela",
+        "language": "Sesotho"
+      },
+      {
+        "question": "Translate 'goodbye' to Xhosa.",
+        "correct_answer": "Uhambe kakuhle",
+        "language": "Xhosa"
+      },
+      {
+        "question": "How would you say 'hi' in Ndebele?",
+        "correct_answer": "Salibonani",
+        "language": "Ndebele"
+      },
+      {
+        "question": "What is the traditional greeting in Tigrayit?",
+        "correct_answer": "ሰላም",
+        "language": "Tigrayit"
+      },
+      {
+        "question": "Translate 'goodbye' to Oromo.",
+        "correct_answer": "Iccuf",
+        "language": "Oromo"
+      },
+      {
+        "question": "Say 'hello' in Sidamo.",
+        "correct_answer": "Selamta",
+        "language": "Sidamo"
+      },
+      {
+        "question": "How do you greet someone in Somali?",
+        "correct_answer": "Soo dhowow",
+        "language": "Somali"
+      },
+      {
+        "question": "What is a common greeting in Yoruba?",
+        "correct_answer": "Ẹ ku ọjọ́ ajá",
+        "language": "Yoruba"
+      },
+      {
+        "question": "Translate 'goodbye' to Swahili.",
+        "correct_answer": "Kwaheri",
+        "language": "Swahili"
+      },
+      {
+        "question": "How would you say 'hi' in Fulfulde?",
+        "correct_answer": "Jamarew",
+        "language": "Fulfulde"
+      },
+      {
+        "question": "What is the traditional greeting in Fula?",
+        "correct_answer": "Jamarew",
+        "language": "Fula"
+      }
+    ]
+  }
+  
