@@ -76,7 +76,7 @@ configobj==5.0.8
 constantly==23.10.4
 contourpy==1.0.7
 crackmapexec==5.4.0
-cryptography==41.0.7
+cryptography==42.0.4
 cssselect==1.2.0
 cvss==2.4
 cycler==0.12.1
@@ -274,7 +274,7 @@ pyasyncore==1.0.2
 pycairo==1.25.1
 pycares==4.4.0
 pycparser==2.21
-pycryptodomex==3.11.0
+pycryptodomex==3.19.1
 pycurl==7.45.2
 pydantic==1.10.14
 PyDispatcher==2.0.5
