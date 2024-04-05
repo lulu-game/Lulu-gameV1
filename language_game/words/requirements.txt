@@ -289,7 +289,7 @@ PyGObject==3.47.0.dev0
 pygraphviz==1.12
 PyHamcrest==2.1.0
 pyinotify==0.9.6
-PyInstaller==3.5+498e6ee058
+PyInstaller==5.13.1
 PyJWT==2.7.0
 pylnk3==0.4.2
 pylsqpack==0.3.18
