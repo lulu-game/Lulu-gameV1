@@ -18,8 +18,13 @@ from django.contrib import admin
 from django.urls import path
 from django.urls import include
 from game.views import game_view
+from words.views import phrases_view
+
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('game/', game_view, name='game'),
+    path('phrases&words/', phrases_view, name='phrases_and_words'),
+
 ]

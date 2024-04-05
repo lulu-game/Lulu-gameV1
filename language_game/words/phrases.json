@@ -1,0 +1,19 @@
+{
+    "phrases": [
+      {
+        "question": "How do you say 'hello' in Yoruba?",
+        "answer": "Ẹ ku ọjọ́ ajá",
+        "language": "Yoruba"
+      },
+      {
+        "question": "What is the word for 'water' in Kiswahili?",
+        "answer": "Maji",
+        "language": "Kiswahili"
+      },
+      {
+        "question": "Translate 'good morning' to Fulfulde.",
+        "answer": "Jamarew",
+        "language": "Fulfulde"
+      }
+    ]
+  }

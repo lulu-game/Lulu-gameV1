@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Language Africa | Phrases</title>
+</head>
+<body>
+    <h1>Language Phrases and Words</h1>
+    <p>{{ message|safe }}</p>
+    <form method="post">
+        {% csrf_token %}
+        <input type="text" name="question" placeholder="Enter your question">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
