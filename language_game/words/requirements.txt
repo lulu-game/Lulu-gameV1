@@ -76,7 +76,7 @@ configobj==5.0.8
 constantly==23.10.4
 contourpy==1.0.7
 crackmapexec==5.4.0
-cryptography==41.0.7
+cryptography==42.0.4
 cssselect==1.2.0
 cvss==2.4
 cycler==0.12.1
@@ -289,7 +289,7 @@ PyGObject==3.47.0.dev0
 pygraphviz==1.12
 PyHamcrest==2.1.0
 pyinotify==0.9.6
-PyInstaller==3.5+498e6ee058
+PyInstaller==5.13.1
 PyJWT==2.7.0
 pylnk3==0.4.2
 pylsqpack==0.3.18
