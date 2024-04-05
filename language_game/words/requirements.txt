@@ -76,7 +76,7 @@ configobj==5.0.8
 constantly==23.10.4
 contourpy==1.0.7
 crackmapexec==5.4.0
-cryptography==41.0.7
+cryptography==42.0.4
 cssselect==1.2.0
 cvss==2.4
 cycler==0.12.1
@@ -133,7 +133,7 @@ GDAL==3.8.4
 gevent==23.9.1
 gevent-websocket==0.10.1
 gitdb==4.0.11
-GitPython==3.1.37
+GitPython==3.1.41
 gpg==1.18.0
 greenbone-feed-sync==24.1.1
 greenlet==3.0.1
@@ -312,7 +312,7 @@ PyQt5-sip==12.13.0
 PyQt6==6.6.1
 PyQt6-sip==13.6.0
 pyqtgraph==0.13.4
-pyramid==2.0
+pyramid==2.0.2
 pyrsistent==0.20.0
 PySecretSOCKS==0.9.1
 pyserial==3.5
